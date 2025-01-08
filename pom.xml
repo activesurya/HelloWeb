@@ -7,6 +7,12 @@
   <version>1.0-SNAPSHOT</version>
   <name>HelloWeb Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <properties>
+   <cargo.remote.username>tomcat </cargo.remote.username>
+   <cargo.remote.password>s3cret</cargo.remote.password>
+   <cargo.tomcat.manager.url>http://localhost:8081/manager</cargo.tomcat.manager.url>
+  </properties>
+ 
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
